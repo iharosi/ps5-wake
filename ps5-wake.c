@@ -86,7 +86,7 @@ static int ddp_parse(char *buffer, struct ddp_reply *reply)
             token[2] == 'T' && token[3] == 'P') {
             for (p = token + 8; *p == ' '; p++);
             for (c = p; isdigit(*p); p++);
-            p = '\0'; reply->code = (short)atoi(c);
+            *p = '\0'; reply->code = (short)atoi(c);
             continue;
         }
 
