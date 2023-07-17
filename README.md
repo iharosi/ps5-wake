@@ -61,7 +61,7 @@ To search via broadcasts using a specific network interface, eth0 for example:
 
     # ./ps5-wake -vP -B -I eth0
 
-To send a probe directly to the PS5 using it's IPv4 address, 192.168.1.10 for example:
+To send a probe directly to the PS5 using its IPv4 address, 192.168.1.10 for example:
 
     # ./ps5-wake -vP -H 192.168.1.10
 
