@@ -68,8 +68,8 @@ To send a probe directly to the PS5 using its IPv4 address, 192.168.1.10 for exa
 To wake-up your PS5 using 123456 as the "user credential":
 
     Via broadcast:
-    # ./ps5-wake -vW -123456 -B
+    # ./ps5-wake -vW 123456 -B
 
     Or, direct:
-    # ./ps5-wake -vW -123456 -H 192.168.1.10
+    # ./ps5-wake -vW 123456 -H 192.168.1.10
 
